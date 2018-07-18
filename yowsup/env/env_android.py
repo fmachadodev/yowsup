@@ -17,16 +17,19 @@ class AndroidYowsupEnv(YowsupEnv):
         "YHNtYoIvt5R3X6YZylbPftF/8ayWTALBgcqhkjOOAQDBQADLwAwLAIUAKYCp0d6z4QQdyN74JDfQ2WCyi8CFDUM4CaNB+ceVXd" \
         "KtOrNTQcc0e+t"
 
-    _MD5_CLASSES = "uts7K11+PDyZE5R0ou+2Sw=="
+    _MD5_CLASSES = "mr7MpjsAITrq6213zTkxSQ=="
     _KEY = "eQV5aq/Cg63Gsq1sshN9T3gh+UUp0wIw0xgHYT1bnCjEqOJQKCRrWxdAe2yvsDeCJL+Y4G3PRD2HUF7oUgiGo8vGlNJOaux26k+A2F3hj8A="
 
-    _VERSION = "2.17.337"
+    _VERSION = "2.18.142"
     _OS_NAME = "Android"
 	#new
-    _OS_VERSION = "4.3"
-    _DEVICE_NAME = "endeavoru"
-    _MANUFACTURER = "HTC"
-    _BUILD_VERSION = "IMM76D"
+    _OS_VERSION = "6.0.1"
+    #_DEVICE_NAME = "endeavoru"
+    _DEVICE_NAME = "Moto X Play"
+   # _MANUFACTURER = "HTC"
+    _MANUFACTURER = "Motorola"
+    #_BUILD_VERSION = "IMM76D"
+    _BUILD_VERSION = "MOB31T"
     _AXOLOTL = True
 
     def getVersion(self):
